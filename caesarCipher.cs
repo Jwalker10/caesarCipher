@@ -5,6 +5,13 @@ namespace CaesarCipher
   {
     static void Main(string[] args)
     {
+      // procures message to be encrypted from user
+      Console.Write("Enter your message: ");
+      string message = Console.ReadLine();
+
+      // call encryption method
+      string secretMessageEncrypted = Encrypt(message);
+      Console.WriteLine(secretMessageEncrypted);
       
     }
 
