@@ -7,7 +7,14 @@ namespace CaesarCipher
     {
       // procures message to be encrypted from user
       Console.Write("Enter your message: ");
-      string message = Console.ReadLine();
+      string? input = Console.ReadLine();
+      // if statement to make sure null value isnt passed into program.
+      if (input == null) 
+      {
+        Console.WriteLine("Error: null value entered!");
+        return;
+      } 
+      string message = input;
 
       // call encryption method
       string secretMessageEncrypted = Encrypt(message);
@@ -20,8 +27,8 @@ namespace CaesarCipher
       // Char array of alphabet
       char[] alphabet = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
       
-      // returns empty string for now to stop errors being thrown!
-      string encryptedString = "";
+      // returns message for now to stop errors being thrown!
+      string encryptedString = message;
       return encryptedString;
       }
   }
