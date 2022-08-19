@@ -1,0 +1,15 @@
+C:\Users\Jude\Documents\Project_Folder\Cipher\bin\Debug\net6.0\Cipher.exe
+C:\Users\Jude\Documents\Project_Folder\Cipher\bin\Debug\net6.0\Cipher.deps.json
+C:\Users\Jude\Documents\Project_Folder\Cipher\bin\Debug\net6.0\Cipher.runtimeconfig.json
+C:\Users\Jude\Documents\Project_Folder\Cipher\bin\Debug\net6.0\Cipher.dll
+C:\Users\Jude\Documents\Project_Folder\Cipher\bin\Debug\net6.0\Cipher.pdb
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.csproj.AssemblyReference.cache
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.AssemblyInfoInputs.cache
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.AssemblyInfo.cs
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.csproj.CoreCompileInputs.cache
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.dll
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\refint\Cipher.dll
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.pdb
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\Cipher.genruntimeconfig.cache
+C:\Users\Jude\Documents\Project_Folder\Cipher\obj\Debug\net6.0\ref\Cipher.dll
