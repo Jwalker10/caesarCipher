@@ -26,6 +26,17 @@ namespace CaesarCipher
       {
       // Char array of alphabet
       char[] alphabet = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+
+      // configures message ready for encryption
+      string messageConfigured = message.ToLower();
+
+      // captures message as an array of characters 
+      char[] secretMessage = messageConfigured.ToCharArray();
+      // tests message has been captured succesfully
+      /* foreach (char character in secretMessage) 
+      {
+        Console.Write(character);
+      }; */
       
       // returns message for now to stop errors being thrown!
       string encryptedString = message;
