@@ -37,10 +37,32 @@ namespace CaesarCipher
       {
         Console.Write(character);
       }; */
-      
-      // returns message for now to stop errors being thrown!
-      string encryptedString = message;
-      return encryptedString;
+
+      // initializes empty char array to hold encrypted message
+        char[] encryptedMessage = new char[secretMessage.Length];
+        // checks length of encryptedMessage is identical to secretMessage array
+        // Console.Write(encryptedMessage.Length);
+
+        // iterates through each char in secretMessage finding and accessing the index of the char within alphabet adding three and accessing the char at the resulting index then pushing that encrypted char to encryptedMessage
+        for (int i = 0; i < secretMessage.Length; i++) 
+        {
+          bool isSpecialCharacter = Char.IsLetter(secretMessage[i]);
+          if (isSpecialCharacter != true) 
+          {
+            encryptedMessage[i] = secretMessage[i];
+            continue;
+          };
+          int secretCharIndex = Array.IndexOf(alphabet, secretMessage[i]);
+          int secretCharEncryptedIndex = (secretCharIndex + 3) % alphabet.Length;
+          char secretCharEncrypted = alphabet[secretCharEncryptedIndex];
+          encryptedMessage[i] = secretCharEncrypted;
+          // checks message has been succesfully encrypted
+          // Console.Write(encryptedMessage[i]);
+        };
+
+        // joins encryptedMessage to make a full stringed message and returns it to the function call
+        string encryptedString = String.Join("", encryptedMessage);
+        return encryptedString;
       }
   }
 }
