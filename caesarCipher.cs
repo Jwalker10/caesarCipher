@@ -9,7 +9,7 @@ namespace CaesarCipher
       Console.Write("Enter your message: ");
       string? input = Console.ReadLine();
       // if statement to make sure null value isnt passed into program.
-      if (input == null) 
+      if (String.IsNullOrEmpty(input)) 
       {
         Console.WriteLine("Error: null value entered!");
         return;
